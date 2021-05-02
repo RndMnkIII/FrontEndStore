@@ -3,7 +3,7 @@ Hoja de estilos para el proyecto FrontEndStore
 ***/
 
 :root {
-	--primario: #9C7B0;
+	--primario: #9C27B0;
 	--primario-oscuro: #89119D;
 	--secundario-oscuro: rgb(233,287,2);
 	--secundario: #FFCE00;
@@ -39,7 +39,7 @@ a {
 }
 
 img {
-	width: 100%;
+	max-width: 100%;
 }
 
 .contenedor {
