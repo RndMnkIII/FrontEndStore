@@ -64,3 +64,36 @@ h2 {
 h3 {
 	font-size: 2.4rem;
 }
+
+/*** Header ***/
+.header {
+	display: flex;
+	justify-content: center; /* alinear centralmente */
+}
+
+.header__logo {
+	margin: 3rem 0;
+}
+
+/*** Navegacion ***/
+.navegacion {
+	background-color: var(--primario-oscuro);
+	padding: 1rem 0;
+	display: flex;
+	justify-content: center; /* alinear centralmente */
+	gap: 2rem; /* para separar elementos menu navegacion */
+}
+
+.navegacion__elem {
+	font-family: var(--fuente-principal);
+	font-size: 3rem;
+	color: var(--blanco);
+}
+
+.navegacion__elem--activo,
+.navegacion__elem:hover {
+	color: var(--secundario);
+}
+
+
+
