@@ -75,23 +75,41 @@ h3 {
 	margin: 3rem 0;
 }
 
+/*** Footer ***/
+.footer {
+	background-color: var(--primario-oscuro);
+	padding: 1rem 0;
+	margin-top: 2rem;
+}
+
+.footer__texto {
+	font-family: var(--fuente-principal);
+	font-size:2.2rem;
+	text-align: center;
+}
+
 /*** Navegacion ***/
 .navegacion {
 	background-color: var(--primario-oscuro);
 	padding: 1rem 0;
 	display: flex;
 	justify-content: center; /* alinear centralmente */
-	gap: 2rem; /* para separar elementos menu navegacion */
+	/* gap: 2rem; * metodo nuevo para separar elementos menu navegacion **/
 }
 
-.navegacion__elem {
+.navegacion__enlace {
 	font-family: var(--fuente-principal);
 	font-size: 3rem;
 	color: var(--blanco);
+	margin-right: 2rem;
 }
 
-.navegacion__elem--activo,
-.navegacion__elem:hover {
+.navegacion__enlace:last-of-type {
+	margin-right: 0;
+}
+
+.navegacion__enlace--activo,
+.navegacion__enlace:hover {
 	color: var(--secundario);
 }
 
